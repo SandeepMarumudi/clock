@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock App</title>
+    <style>
+        body {
+            background-color: #f0f4f8;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        #clc {
+            font-weight: bolder;
+            font-size: 10em;
+            color: #333;
+            text-align: center;
+            margin: 20px 0;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            width: 150px;
+            height: 50px;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="clc">00:00:00</div>
+    <div id="button-container">
+        <button id="st">Stop</button>
+        <button id="sta">Start</button>
+    </div>
+    <script src="./clock.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #clc{
+      text-align: center;
+      font-weight: bolder;
+      font-size: 10em;
+      margin-top: 10%;
+    }
+    #st{
+        text-align: center;
+        margin-left: 20%;
+        width: 20%;
+        height: 100px;
+    }
+    #sta{
+        text-align: center;
+        margin-left: 20%;
+        width: 20%;
+        height: 100px;
+    }
+</style>
+<body>
+    <div id="clc"></div>
+    <button id="st">stop</button>
+    <button id="sta">start</button>
+
+    <script src="./clock.js">
+    </script>
+    
+</body>
+</html> -->
